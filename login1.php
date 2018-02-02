@@ -17,6 +17,7 @@ if ( isset($_POST['email']) && isset($_POST['password'])  ) {
       $failure = "<p> Invalid! Email must contain at-sign (@)</p>";
     }
     //echo("<p>Handling POST data...</p>\n");
+    //username: vinz@gmail.com password: 123456
     $e = $_POST['email'];
     $p = $_POST['password'];
 
@@ -54,5 +55,5 @@ if ( isset($_POST['email']) && isset($_POST['password'])  ) {
 <input type="submit" name="cancel" value="Cancel" />
 <a href="<?php echo($_SERVER['PHP_SELF']);?>">Refresh</a></p>
 </form>
-    //username vinz@gmail.com password: 123456
+    
 
