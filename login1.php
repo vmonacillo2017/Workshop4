@@ -54,4 +54,5 @@ if ( isset($_POST['email']) && isset($_POST['password'])  ) {
 <input type="submit" name="cancel" value="Cancel" />
 <a href="<?php echo($_SERVER['PHP_SELF']);?>">Refresh</a></p>
 </form>
+    //username vinz@gmail.com password: 123456
 
